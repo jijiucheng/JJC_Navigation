@@ -1,0 +1,24 @@
+/* 全局覆盖样式 */
+:root {
+  --theme: #9feaf9;
+  --bg-light-gray: #f0f0f0;
+  --line: #dcdfe6;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body,
+#app {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+}
+
+ul {
+  list-style: none;
+}
